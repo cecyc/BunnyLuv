@@ -1,0 +1,196 @@
+/* Fonts */
+
+h1 {
+	font-family: 'Cookie', Georgia, serif;
+	font-size: 4em;
+	color: #FF3D7F;
+	padding: 0px;
+	margin-left: 55px;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+h2 {
+	font-family: 'Capriola', Arial, sans-serif;
+	font-size: 1.2em;
+	color: #3C363B;
+}
+
+h3 {
+	font-family: 'Capriola', Arial, sans-serif;
+	font-size: 1em;
+	color: #736558;
+}
+
+p {
+	font-family: 'Gilda Display', Georgia, serif;
+	font-size: 1em;
+	color: #3C363B;
+}
+
+@font-face {
+  font-family: 'EntypoRegular';
+  src: url('font/Entypo-webfont.eot');
+  src: url('font/Entypo-webfont.eot?#iefix') format('embedded-opentype'),
+       url('font/Entypo-webfont.woff') format('woff'),
+       url('font/Entypo-webfont.ttf') format('truetype'),
+       url('font/Entypo-webfont.svg#EntypoRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+/* Header */
+
+header {
+	background-color: #FCD7DA;
+	padding-top: 5px;
+	border-bottom: 5px solid #3FB8AF;
+}
+
+header:after {
+  /* clearfix hack */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+	background-color: #FCD7DA;
+	padding: 0px;
+}
+
+nav ul {
+	list-style: none;
+	font-family: "Capriola", Arial, sans-serif;
+}
+
+nav li {
+	float: left;
+	padding: 10px;
+}
+
+nav li a {
+	  color: #FD65A0;
+	  text-decoration: none;
+}
+
+nav li a:hover {
+	  color: #3FB8AF;
+}
+
+nav ul li:before {
+	color: #FD65A0;
+	content: '6';
+	font-family: 'EntypoRegular';
+	padding: 5px;
+}
+
+/* Body Structure */
+
+body {
+  background-color: #F9FBF5;
+  margin: 0px auto;
+  min-width: 960px;
+  width: 100%;
+}
+
+#wrapper {
+	margin: 0px auto;
+	min-width: 960px;
+	width: 80%;
+	padding: 30px;
+}
+
+#wrapper section:after {
+  /* clearfix hack */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#myths article.bunny {
+	background-color: #F9EBF2;
+	float: left;
+	min-height: 200px;
+	margin: 1%;
+	padding: 2%;
+	width: 25%;
+}
+
+#myths article img {
+	display: block;
+	margin: 1em auto;
+	border-radius: 100%;
+	width: 85%;
+}
+
+#tips article.bunny {
+	background-color: #FEF5C6;
+	float: left;
+	min-height: 200px;
+	margin: 1%;
+	padding: 2%;
+	width: 25%;
+}
+
+#tips article img {
+	display: block;
+	margin: 1em auto;
+	border-radius: 100%;
+	width: 85%;
+}
+
+#resources ul {
+	list-style: none;
+	padding: 5px;
+	font-family: 'Gilda Display', Georgia, serif;
+	font-size: 1em;
+	color: #3C363B;
+}
+
+#resources ul li:before {
+	color: #FD65A0;
+	content: '6';
+	font-family: 'EntypoRegular';
+	padding: 5px;	
+}
+
+#resources ul li a {
+	color: #FD65A0;
+	text-decoration: none;
+}
+
+#resources ul li a:hover {
+	color: #3FB8AF;
+	text-decoration: underline;
+}
+
+#resources ul li a:visited {
+	color: #FD65A0;
+	text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+	background-color: #7FC7AF ;
+	border-top: 5px solid #3FB8AF;
+	padding: 5px;
+}
+
+#credits p {
+	color: #fff;
+	text-shadow: 1px 1px 1px #31D5DE;
+	text-align: center;
+}
+
+#credits a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#credits a:hover {
+	text-decoration: underline;
+}
+
+
+
